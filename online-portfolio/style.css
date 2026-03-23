@@ -8,6 +8,9 @@ Light Orange - #bb826c
 Vivid Red - #e5011a
 */
 
+@media screen {
+
+
 #name {
   font-family: "Shrikhand", serif;
   font-size: 71px;
@@ -54,9 +57,46 @@ button {
   background-color: #f1f0f0;
 }
 
-#experiances{
+#navigation {
+  justify-content: center;
+  background-color: black;
+}
+
+.nav {
+  justify-content: center;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  
+  
+}
+
+#content {
+  text-align: center;
+}
+
+#experiances {
   font-family: "Shrikhand", serif;
   font-size: 71px;
-  
+  text-align: center;
+}
+
+
+}
+
+@media (min-width:576px) {
+  h1 {
+    font-size: 100px
+  }
   
 }
