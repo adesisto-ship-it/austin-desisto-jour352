@@ -1,0 +1,113 @@
+#headline {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 400px;
+    margin-right: 50px;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.3px;
+}
+
+p {
+    line-height: 35px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#topper {
+    background-image: url(art002e009286~orig.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#section1 {
+    margin-top: 50px;
+}
+
+#section2 {
+    width: 80%;
+    margin: auto;
+}
+
+#Q1 {
+    margin-bottom: 30px;
+}
+
+#SLSrollout {
+    width: 100%;
+}
+
+#Q2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#fullearth {
+    background-image: url(art002e000192.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-right: 100px;
+    opacity: 0.95;
+    background-color: black;
+}
+
+.earthtext {
+    color: white;
+    margin-top: 125px;
+    margin-left: 100px;
+    font-size: 50px;
+    letter-spacing: 0.2px;
+    text-shadow: 0 0 10px white;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.earthtext-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.earthtext2 {
+    color: white;
+    margin-top: 350px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px white;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.earthtext2-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.earthtext3 {
+    color: white;
+    margin-top: 1000px;
+    margin-left: 100px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px white;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.earthtext3-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section4 {
+    width:80%;
+}
